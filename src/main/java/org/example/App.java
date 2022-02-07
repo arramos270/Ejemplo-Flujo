@@ -27,7 +27,7 @@ public class App {
             //Files.createFile(bak);
             Files.copy(notas, bak);
 
-            if(!Files.exist(bakDir)){ //Completar
+            if(!Files.exist(bakDir)){ //Completar esto
                 Files.createDirectories(bakDir);
             }
         }
