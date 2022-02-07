@@ -20,7 +20,7 @@ public class Salida {
         }
     }
 
-    public void escribirTxt() {
+    /*public void escribirTxt() {
 
         /*try (OutputStreamWriter bos =
                      new OutputStreamWriter(
@@ -29,12 +29,12 @@ public class Salida {
             for (int i = 0; i < 100; i++) {
                 bos.write("Era un domingo en la tarde con los coches de choque");
                 //bos.write("a");
-            }*/ //Usaremos OutputStreamWriter cuando queramos escribir texto en un flujo binario, pues une ambos flujos
+            } //Usaremos OutputStreamWriter cuando queramos escribir texto en un flujo binario, pues une ambos flujos
 
         try(){
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }
